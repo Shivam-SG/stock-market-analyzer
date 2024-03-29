@@ -5,7 +5,7 @@ const StockU = () => {
     <div>
     <iframe
       title="Streamlit App"
-      src="http://localhost:8501"
+      src="https://stock-a.streamlit.app/"
       width="100%"
       height="729.9px"
     />
