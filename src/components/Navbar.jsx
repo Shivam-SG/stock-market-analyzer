@@ -10,16 +10,16 @@ const Navbar = () => {
   // console.log(user);
   const navItems = (
     <>
-      <li className="text-black font-bold text-xl">
+      <li className="font-bold text-xl">
         <a href="/">Home</a>
       </li>
-      <li className="text-black font-bold text-xl">
+      <li className="font-bold text-xl">
         <a href="/about">About</a>
       </li>
-      <li className="text-black font-bold text-xl">
+      <li className="font-bold text-xl">
         <a href="/news">News</a>
       </li>
-      <li className="text-black font-bold text-xl">
+      <li className="font-bold text-xl">
         <a
           onClick={() => document.getElementById("my_modal_5").showModal()}
         >

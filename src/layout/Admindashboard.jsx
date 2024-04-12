@@ -22,7 +22,7 @@ const Admindashboard = () => {
             >
               <LuLayoutDashboard />
             </label>
-            <button className="btn rounded-full px-6 bg-blue flex items-center gap-2 text-white sm:hidden"><FaRegUser/>Logout</button>
+            {/* <button className="btn rounded-full px-6 bg-blue flex items-center gap-2 text-white sm:hidden"><FaRegUser/>Logout</button> */}
             </div>
             <div className="mt-5 md:mt-2"><Outlet/></div>
           </div>

@@ -21,7 +21,7 @@ const User = () => {
 
   const sidebarHandle = (page) => {
     setActivePage(page);
-    setMenuOpen(false); // Close the menu when a page is clicked
+    setMenuOpen(false);
   };
 
   const toggleMenu = () => {
