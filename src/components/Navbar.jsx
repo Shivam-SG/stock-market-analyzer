@@ -17,7 +17,7 @@ const Navbar = () => {
         <a href="/about">About</a>
       </li>
       <li className="font-bold text-xl">
-        <a href="/news">News</a>
+        <a onClick={() => document.getElementById("my_modal_5").showModal()}>News</a>
       </li>
       <li className="font-bold text-xl">
         <a
