@@ -34,7 +34,7 @@ const Banner = () => {
 
             <Modal />
           </div>
-          <TradingViewWidget />
+          {/* <TradingViewWidget /> */}
         </div>
         <div className="md:w-1/1">
           <img className="w-50 h-50" src="/Static_11.png" alt="" />
